@@ -15,3 +15,5 @@ rules.forEach(rule =>{
 });
 
 console.log('log:',selectorMappings);
+
+fs.writeFileSync('./cssRules.json', JSON.stringify(selectorMappings));

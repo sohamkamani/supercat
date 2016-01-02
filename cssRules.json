@@ -1,0 +1,223 @@
+[{
+  "color": "yellow",
+  "selectors": ["", "ed-text"]
+}, {
+  "color": "rgba(197, 200, 198, 0.2)",
+  "selectors": ["", "ed-text", "invisible-character"]
+}, {
+  "color": "rgba(197, 200, 198, 0.2)",
+  "selectors": ["", "ed-text", "indent-guide"]
+}, {
+  "color": "red",
+  "selectors": ["", "ed-text", "wrap-guide", "storage", "type"]
+}, {
+  "color": "none",
+  "selectors": ["", "ed-text", "gutter"]
+}, {
+  "color": "none",
+  "selectors": ["", "ed-text", "gutter", "cursor-line"]
+}, {
+  "color": "none",
+  "selectors": ["", "ed-text", "line-number", "cursor-line-no-selection"]
+}, {
+  "color": "#fba0e3",
+  "selectors": ["", "ed-text", "gutter", "line-number", "folded", "line-number:after", "fold-marker:after"]
+}, {
+  "color": "#c5c8c6",
+  "selectors": ["", "ed-text", "invisible"]
+}, {
+  "color": "none",
+  "selectors": ["", "ed-text", "cursor"]
+}, {
+  "color": "none",
+  "selectors": ["", "ed-text", "selection", "region"]
+}, {
+  "color": "#999",
+  "selectors": ["", "ed-text", "", "gfm"]
+}, {
+  "color": "#eee",
+  "selectors": ["", "ed-text", "gfm", "markup", "heading"]
+}, {
+  "color": "#555",
+  "selectors": ["", "ed-text", "gfm", "link"]
+}, {
+  "color": "#555",
+  "selectors": ["", "ed-text", "gfm", "variable", "list", "support", "quote"]
+}, {
+  "color": "#ddd",
+  "selectors": ["", "ed-text", "gfm", "link", "entity"]
+}, {
+  "color": "#aaa",
+  "selectors": ["", "ed-text", "gfm", "raw"]
+}, {
+  "color": "#999",
+  "selectors": ["", "ed-text", "markdown", "paragraph"]
+}, {
+  "color": "#eee",
+  "selectors": ["", "ed-text", "markdown", "heading"]
+}, {
+  "color": "#aaa",
+  "selectors": ["", "ed-text", "markdown", "raw"]
+}, {
+  "color": "#555",
+  "selectors": ["", "ed-text", "markdown", "link"]
+}, {
+  "color": "#555",
+  "selectors": ["", "ed-text", "markdown", "link", "string"]
+}, {
+  "color": "#ddd",
+  "selectors": ["", "ed-text", "markdown", "link", "string", "title"]
+}, {
+  "color": "none",
+  "selectors": ["", "bracket-matcher", "region"]
+}, {
+  "color": "#7C7C7C",
+  "selectors": ["", "comment"]
+}, {
+  "color": "#FFD2A7",
+  "selectors": ["", "entity"]
+}, {
+  "color": "#FFFFB6",
+  "selectors": ["", "entity", "name", ""]
+}, {
+  "color": "#9B5C2E",
+  "selectors": ["", "entity", "other", "inherited-class"]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "keyword"]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "keyword", "control"]
+}, {
+  "color": "#EDEDED",
+  "selectors": ["", "keyword", "operator"]
+}, {
+  "color": "#CFCB90",
+  "selectors": ["", ""]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "", "modifier"]
+}, {
+  "color": "#99CC99",
+  "selectors": ["", "constant"]
+}, {
+  "color": "#FF73FD",
+  "selectors": ["", "constant", "numeric"]
+}, {
+  "color": "#C6C5FE",
+  "selectors": ["", "variable"]
+}, {
+  "color": "#FD5FF1",
+  "selectors": ["", "invalid", "deprecated"]
+}, {
+  "color": "#FD5FF1",
+  "selectors": ["", "invalid", "illegal"]
+}, {
+  "color": "#A8FF60",
+  "selectors": ["", "string", "", "", "embedded", "line"]
+}, {
+  "color": "#A8FF60",
+  "selectors": ["", "string", "punctuation", "section", "embedded", "quoted", "double", "single"]
+}, {
+  "color": "#A8FF60",
+  "selectors": ["", "string", "punctuation", "section", "embedded", ""]
+}, {
+  "color": "#A8FF60",
+  "selectors": ["", "string"]
+}, {
+  "color": "#A8FF60",
+  "selectors": ["", "string", "constant"]
+}, {
+  "color": "#E9C062",
+  "selectors": ["", "string", "regexp"]
+}, {
+  "color": "#FF8000",
+  "selectors": ["", "string", "regexp", "constant", "character", "escape", "", "ruby", "embedded", "regexp", "arbitrary-repetition"]
+}, {
+  "color": "#C6A24F",
+  "selectors": ["", "string", "regexp", "group"]
+}, {
+  "color": "#B18A3D",
+  "selectors": ["", "string", "regexp", "character-class"]
+}, {
+  "color": "#8A9A95",
+  "selectors": ["", "string", "variable"]
+}, {
+  "color": "#FFFFB6",
+  "selectors": ["", "support"]
+}, {
+  "color": "#DAD085",
+  "selectors": ["", "support", "function"]
+}, {
+  "color": "#FFD2A7",
+  "selectors": ["", "support", "constant"]
+}, {
+  "color": "#EDEDED",
+  "selectors": ["", "support", "", "property-name", "css"]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "", "entity", "name", "tag", "punctuation"]
+}, {
+  "color": "#C6C5FE",
+  "selectors": ["", "", "entity", "other", "attribute-name"]
+}, {
+  "color": "#C6C5FE",
+  "selectors": ["", "entity", "other", "attribute-name"]
+}, {
+  "color": "#E18964",
+  "selectors": ["", "entity", "name", "tag", "namespace", "other", "attribute-name"]
+}, {
+  "color": "#8996A8",
+  "selectors": ["", "", "preprocessor", "c"]
+}, {
+  "color": "#AFC4DB",
+  "selectors": ["", "", "preprocessor", "c", "keyword"]
+}, {
+  "color": "#676767",
+  "selectors": ["", "", "cast"]
+}, {
+  "color": "#494949",
+  "selectors": ["", "", "sgml", "html", "doc", "doc", "entity", "string", "xml-processing", "xml-processing"]
+}, {
+  "color": "#C6C5FE",
+  "selectors": ["", "", "tag", "entity", "tag >", "punctuation", "tag", "inline"]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "", "tag", "name", "tag", "inline", "tag >", "punctuation"]
+}, {
+  "color": "#96CBFE",
+  "selectors": ["", "", "selector", "css", "entity", "name", "tag"]
+}, {
+  "color": "#8F9D6A",
+  "selectors": ["", "", "selector", "css", "entity", "other", "attribute-name", "tag", "pseudo-class"]
+}, {
+  "color": "#8B98AB",
+  "selectors": ["", "", "selector", "css", "entity", "other", "attribute-name", "id"]
+}, {
+  "color": "#62B1FE",
+  "selectors": ["", "", "selector", "css", "entity", "other", "attribute-name", "class"]
+}, {
+  "color": "#F9EE98",
+  "selectors": ["", "", "property-group", "support", "constant", "property-value", "css", "property-value"]
+}, {
+  "color": "#8693A5",
+  "selectors": ["", "", "preprocessor", "at-rule", "keyword", "control", "at-rule"]
+}, {
+  "color": "#87C38A",
+  "selectors": ["", "", "property-value", "support", "constant", "named-color", "css"]
+}, {
+  "color": "#8F9D6A",
+  "selectors": ["", "", "constructor", "argument", "css"]
+}, {
+  "color": "#F8F8F8",
+  "selectors": ["", "", "diff", "header"]
+}, {
+  "color": "#60A633",
+  "selectors": ["", "", "separator"]
+}, {
+  "color": "none",
+  "selectors": ["", "", "line", "entry", "logfile", "exit"]
+}, {
+  "color": "none",
+  "selectors": ["", "", "line", "error", "logfile"]
+}]

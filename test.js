@@ -33,6 +33,8 @@ var encodeLang = function (grammarFile, code) {
 encodeLang('./python.cson', 'offset = 3\ndef fn(a,v,c):\n  a=6 + "hyhy"');
 encodeLang('./js.cson', 'var t = "9"; var f = function(a, b, c){ typeof 9 }');
 encodeLang('./ruby.cson', 'namespace d do \n t = kl.new \n end \ndef say_hello(name)\n   var = "Hello," + name\nreturn var\nend');
+encodeLang('./clojure.cson', '(def a "aaaaa")\n(type \'my-cool-function)');
+
 
 
 console.log('log:', _.intersection(wordSet[0], wordSet[1]));

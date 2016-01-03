@@ -1,9 +1,9 @@
 'use strict';
 import {expect} from 'chai';
-import hello from '../source';
+import assignWords from '../source/assign-words';
 
 describe('Hello World', ()=>{
   it('Outputs hello world', ()=>{
-    expect(hello('world')).to.equal('Hello world!');
+    expect(assignWords('var i = "9"')).to.equal('Hello world!');
   });
 });

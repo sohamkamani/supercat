@@ -1,0 +1,185 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link', '.' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose linkPkg /Users/sohamchetan/Documents/myNodeModules/supercat
+5 silly gentlyRm /usr/local/lib/node_modules/supercat is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/supercat
+7 silly vacuum-fs purging /usr/local/lib/node_modules/supercat
+8 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
+9 verbose link build target /usr/local/lib/node_modules/supercat
+10 verbose install where, what [ '/Users/sohamchetan/Documents/myNodeModules/supercat', [] ]
+11 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/myNodeModules/supercat/package.json
+12 verbose install where, deps [ '/Users/sohamchetan/Documents/myNodeModules/supercat',
+12 verbose install   [ 'chalk',
+12 verbose install     'color',
+12 verbose install     'css',
+12 verbose install     'first-mate',
+12 verbose install     'first-mate-select-grammar',
+12 verbose install     'highlights',
+12 verbose install     'htmlout',
+12 verbose install     'lodash',
+12 verbose install     'parse-color',
+12 verbose install     'babel-core',
+12 verbose install     'babel-preset-es2015',
+12 verbose install     'chai',
+12 verbose install     'colors',
+12 verbose install     'gulp',
+12 verbose install     'gulp-babel',
+12 verbose install     'gulp-clean',
+12 verbose install     'gulp-coveralls',
+12 verbose install     'gulp-istanbul',
+12 verbose install     'gulp-jshint',
+12 verbose install     'gulp-mocha',
+12 verbose install     'gulp-sourcemaps',
+12 verbose install     'jshint',
+12 verbose install     'jshint-stylish',
+12 verbose install     'remap-istanbul',
+12 verbose install     'source-map-support' ] ]
+13 verbose install where, peers [ '/Users/sohamchetan/Documents/myNodeModules/supercat', [] ]
+14 verbose installManyTop reading for lifecycle /Users/sohamchetan/Documents/myNodeModules/supercat/package.json
+15 info preinstall supercat@0.1.0
+16 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/babel-core/package.json
+17 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/babel-preset-es2015/package.json
+18 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/chai/package.json
+19 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/chalk/package.json
+20 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/color/package.json
+21 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/colors/package.json
+22 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/css/package.json
+23 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/first-mate/package.json
+24 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/first-mate-select-grammar/package.json
+25 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp/package.json
+26 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-babel/package.json
+27 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-clean/package.json
+28 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-coveralls/package.json
+29 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-istanbul/package.json
+30 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-jshint/package.json
+31 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-mocha/package.json
+32 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-sourcemaps/package.json
+33 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/highlights/package.json
+34 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/htmlout/package.json
+35 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/jshint/package.json
+36 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/jshint-stylish/package.json
+37 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/lodash/package.json
+38 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/parse-color/package.json
+39 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/remap-istanbul/package.json
+40 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/source-map-support/package.json
+41 info package.json first-mate@5.1.1 No license field.
+42 info package.json gulp-clean@0.3.1 No license field.
+43 info package.json gulp-coveralls@0.1.4 No license field.
+44 info package.json htmlout@0.2.0 No repository field.
+45 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/myNodeModules/supercat/package.json
+46 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/babel-core/package.json
+47 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/babel-preset-es2015/package.json
+48 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/chai/package.json
+49 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/chalk/package.json
+50 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/color/package.json
+51 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/colors/package.json
+52 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/css/package.json
+53 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/first-mate/package.json
+54 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/first-mate-select-grammar/package.json
+55 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp/package.json
+56 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-babel/package.json
+57 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-clean/package.json
+58 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-coveralls/package.json
+59 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-istanbul/package.json
+60 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-jshint/package.json
+61 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-mocha/package.json
+62 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/gulp-sourcemaps/package.json
+63 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/highlights/package.json
+64 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/htmlout/package.json
+65 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/jshint/package.json
+66 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/jshint-stylish/package.json
+67 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/lodash/package.json
+68 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/parse-color/package.json
+69 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/remap-istanbul/package.json
+70 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/source-map-support/package.json
+71 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/.bin/gulp/package.json
+72 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/.bin/highlights/package.json
+73 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/.bin/jshint/package.json
+74 verbose targetResolver reading package data from /Users/sohamchetan/Documents/myNodeModules/supercat/node_modules/.bin/remap-istanbul/package.json
+75 verbose already installed skipping first-mate@^5.1.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+76 verbose already installed skipping first-mate-select-grammar@^1.0.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+77 verbose already installed skipping highlights@^1.3.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+78 verbose already installed skipping htmlout@^0.2.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+79 verbose already installed skipping lodash@^3.10.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+80 verbose already installed skipping parse-color@^1.0.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+81 verbose already installed skipping babel-core@^6.2.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+82 verbose already installed skipping babel-preset-es2015@^6.1.18 /Users/sohamchetan/Documents/myNodeModules/supercat
+83 verbose already installed skipping chai@^3.4.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+84 verbose already installed skipping colors@^1.1.2 /Users/sohamchetan/Documents/myNodeModules/supercat
+85 verbose already installed skipping gulp@^3.9.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+86 verbose already installed skipping gulp-babel@^6.1.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+87 verbose already installed skipping gulp-clean@^0.3.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+88 verbose already installed skipping gulp-coveralls@^0.1.4 /Users/sohamchetan/Documents/myNodeModules/supercat
+89 verbose already installed skipping gulp-istanbul@^0.10.3 /Users/sohamchetan/Documents/myNodeModules/supercat
+90 verbose already installed skipping gulp-jshint@^2.0.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+91 verbose already installed skipping gulp-mocha@^2.2.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+92 verbose already installed skipping gulp-sourcemaps@^1.6.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+93 verbose already installed skipping jshint@^2.8.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+94 verbose already installed skipping jshint-stylish@^2.1.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+95 verbose already installed skipping remap-istanbul@^0.4.0 /Users/sohamchetan/Documents/myNodeModules/supercat
+96 verbose already installed skipping source-map-support@^0.3.3 /Users/sohamchetan/Documents/myNodeModules/supercat
+97 verbose already installed skipping chalk@^1.1.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+98 verbose already installed skipping color@^0.10.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+99 verbose already installed skipping css@^2.2.1 /Users/sohamchetan/Documents/myNodeModules/supercat
+100 silly install resolved []
+101 info build /Users/sohamchetan/Documents/myNodeModules/supercat
+102 info linkStuff supercat@0.1.0
+103 silly linkStuff supercat@0.1.0 has /Users/sohamchetan/Documents/myNodeModules as its parent node_modules
+104 verbose linkBins supercat@0.1.0
+105 verbose linkMans supercat@0.1.0
+106 verbose rebuildBundles supercat@0.1.0
+107 verbose rebuildBundles [ '.bin',
+107 verbose rebuildBundles   'babel-core',
+107 verbose rebuildBundles   'babel-preset-es2015',
+107 verbose rebuildBundles   'chai',
+107 verbose rebuildBundles   'chalk',
+107 verbose rebuildBundles   'color',
+107 verbose rebuildBundles   'colors',
+107 verbose rebuildBundles   'css',
+107 verbose rebuildBundles   'first-mate',
+107 verbose rebuildBundles   'first-mate-select-grammar',
+107 verbose rebuildBundles   'gulp',
+107 verbose rebuildBundles   'gulp-babel',
+107 verbose rebuildBundles   'gulp-clean',
+107 verbose rebuildBundles   'gulp-coveralls',
+107 verbose rebuildBundles   'gulp-istanbul',
+107 verbose rebuildBundles   'gulp-jshint',
+107 verbose rebuildBundles   'gulp-mocha',
+107 verbose rebuildBundles   'gulp-sourcemaps',
+107 verbose rebuildBundles   'highlights',
+107 verbose rebuildBundles   'htmlout',
+107 verbose rebuildBundles   'jshint',
+107 verbose rebuildBundles   'jshint-stylish',
+107 verbose rebuildBundles   'lodash',
+107 verbose rebuildBundles   'parse-color',
+107 verbose rebuildBundles   'remap-istanbul',
+107 verbose rebuildBundles   'source-map-support' ]
+108 info install supercat@0.1.0
+109 info postinstall supercat@0.1.0
+110 info prepublish supercat@0.1.0
+111 verbose validateInstall loading /Users/sohamchetan/Documents/myNodeModules/supercat/package.json for validation
+112 info build /usr/local/lib/node_modules/supercat
+113 info linkStuff supercat@0.1.0
+114 silly linkStuff supercat@0.1.0 has /usr/local/lib/node_modules as its parent node_modules
+115 silly linkStuff supercat@0.1.0 is part of a global install
+116 silly linkStuff supercat@0.1.0 is installed into a global node_modules
+117 silly linkStuff supercat@0.1.0 is installed into the top-level global node_modules
+118 verbose linkBins supercat@0.1.0
+119 verbose link bins [ { scat: 'node ./dist/cli.js' }, '/usr/local/bin', true ]
+120 verbose linkMans supercat@0.1.0
+121 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/supercat/node ./dist/cli.js'
+121 verbose stack     at Error (native)
+122 verbose cwd /Users/sohamchetan/Documents/myNodeModules/supercat
+123 error Darwin 14.5.0
+124 error argv "node" "/usr/local/bin/npm" "link" "."
+125 error node v0.12.4
+126 error npm  v2.10.1
+127 error path /usr/local/lib/node_modules/supercat/node ./dist/cli.js
+128 error code ENOENT
+129 error errno -2
+130 error enoent ENOENT, chmod '/usr/local/lib/node_modules/supercat/node ./dist/cli.js'
+130 error enoent This is most likely not a problem with npm itself
+130 error enoent and is related to npm not being able to find a file.
+131 verbose exit [ -2, true ]

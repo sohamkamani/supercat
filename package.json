@@ -11,6 +11,9 @@
     "name": "sohamkamani",
     "email": "sohamkamani@gmail.com"
   },
+  "bin" : {
+    "scat" : "node ./dist/cli.js"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",

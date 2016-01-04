@@ -1,11 +1,11 @@
 'use strict';
-var _ = require('lodash');
+// var _ = require('lodash');
 var GrammarRegistry, grammar, line, ref, registry, tags;
 
 GrammarRegistry = require('first-mate').GrammarRegistry;
 
 var encodeLang = function (grammarFile, code) {
-  var tokens
+  var tokens;
   registry = new GrammarRegistry();
 
   grammar = registry.loadGrammarSync(grammarFile);

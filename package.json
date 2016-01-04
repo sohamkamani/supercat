@@ -4,34 +4,31 @@
   "description": "My node module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "istanbul cover _mocha -- --compilers js:babel/register",
+    "test:coveralls": "istanbul cover _mocha --report lcovonly -- --compilers js:babel/register",
+    "mocha": "mocha test --compilers js:babel/register",
+    "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist --presets es2015",
+    "copy:others" : "rsync -avm --exclude='*.js' ./source/* ./dist",
+    "see-output" : "babel-node source/cli.js gulpfile.js --presets es2015"
   },
   "repository": "sohamkamani/supercat",
   "author": {
     "name": "sohamkamani",
     "email": "sohamkamani@gmail.com"
   },
-  "bin" : {
-    "scat" : "./dist/cli.js"
+  "bin": {
+    "scat": "./dist/cli.js"
   },
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.2.1",
+    "babel-cli": "^6.3.17",
     "babel-preset-es2015": "^6.1.18",
     "chai": "^3.4.1",
     "colors": "^1.1.2",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.0",
-    "gulp-clean": "^0.3.1",
-    "gulp-coveralls": "^0.1.4",
-    "gulp-istanbul": "^0.10.3",
-    "gulp-jshint": "^2.0.0",
-    "gulp-mocha": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
+    "cpy-cli": "^1.0.0",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0",
-    "remap-istanbul": "^0.4.0",
-    "source-map-support": "^0.3.3"
+    "mocha": "^2.3.4"
   },
   "dependencies": {
     "chalk": "^1.1.1",

@@ -1,7 +1,18 @@
 [{
   "color": "yellow",
-  "selectors": ["", "ed-text"]
+  "selectors": ["function"]
+},{
+  "color": "green",
+  "selectors": ["string"]
 },  {
   "color": "#fba0e3",
-  "selectors": ["", "ed-text", "gutter", "line-number", "folded", "line-number:after", "fold-marker:after"]
+  "selectors": ["keyword"]
+},
+{
+  "color" : "white",
+  "selectors" : ["variable"]
+},
+{
+  "color": "blue",
+  "selectors": ["source"]
 }]

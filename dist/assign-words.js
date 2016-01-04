@@ -26,9 +26,7 @@ module.exports = function (fileString) {
     // delete token.scopes;
     return token;
   });
-
   var colorString = '';
-
   mappedTokens.forEach(function (token) {
     colorString += _chalk2.default[token.ansiColor](token.value);
   });

@@ -1,7 +1,3 @@
 {
-  "ecmaVersion": 6,
-  "plugins": {
-    "node": {
-    }
-  }
+  "ecmaVersion": 6
 }

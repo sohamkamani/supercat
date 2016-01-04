@@ -22,7 +22,7 @@ var dirs = {
 };
 
 var files = {
-  test: 'test/**/*.js',
+  test: ['test/bootstrap.spec.js','test/**/*.js'],
   testBuild: path.join(dirs.testBuild, '/**/*.js'),
   source: path.join(dirs.source, '/**/*.js'),
   sourceBuild: path.join(dirs.sourceBuild, '/**/*.js'),
@@ -65,7 +65,7 @@ var _clean = function (dir) {
 //Test tasks
 gulp.task('source:build', _build(files.source, dirs.sourceBuild, dirs.sourceRoot));
 gulp.task('test:build', _build(files.test, dirs.testBuild, dirs.testRoot));
-gulp.task('build:all', ['source:build', 'test:build']);
+gulp.task('build:all', ['source:build', 'test:build', 'copy:dev']);
 
 
 gulp.task('pre-test', ['build:all'], function () {
@@ -126,6 +126,11 @@ gulp.task('build', ['clean:dist', 'copy:dist'], function () {
 gulp.task('copy:dist', function(){
   return gulp.src(dirs.source + '/!(*.js)')
   .pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy:dev', ['clean:all'], function(){
+  return gulp.src(dirs.source + '/!(*.js)')
+  .pipe(gulp.dest(dirs.sourceBuild));
 });
 
 gulp.task('watch', function () {

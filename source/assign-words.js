@@ -3,9 +3,8 @@ import encodeLang from './test';
 import scopesToColor from './scopes-to-color';
 import chalk from 'chalk';
 
-
-module.exports = function (fileString) {
-  let tokens = encodeLang(fileString);
+module.exports = function (fileString, language) {
+  let tokens = encodeLang(fileString, language);
   let colorString = '';
   tokens.forEach(token => {
     var color = scopesToColor(token.scopes);

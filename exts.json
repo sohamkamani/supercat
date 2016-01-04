@@ -1,0 +1,13 @@
+[{
+  "name": "clojure",
+  "exts": ["boot", "clj", "cljc", "cljs", "cljx", "clojure", "edn"]
+}, {
+  "name": "javascript",
+  "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib", "json"]
+}, {
+  "name": "python",
+  "exts": ["cpy", "gyp", "gypi", "kv", "py", "pyw", "rpy", "SConscript", "SConstruct", "Sconstruct", "sconstruct", "Snakefile", "tac", "wsgi"]
+}, {
+  "name": "ruby",
+  "exts": ["Appfile", "Appraisals", "Berksfile", "cap", "Capfile", "capfile", "cgi", "Deliverfile", "Fastfile", "fcgi", "Gemfile", "gemspec", "Guardfile", "irbrc", "opal", "Podfile", "podspec", "prawn", "pryrc", "Puppetfile", "rabl", "rake", "Rakefile", "Rantfile", "rb", "rbx", "rjs", "ru", "ruby", "Schemafile", "Snapfile", "thor", "Thorfile", "Vagrantfile"]
+}]

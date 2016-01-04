@@ -14,13 +14,14 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = function (fileString) {
-  var tokens = (0, _test2.default)(fileString);
+module.exports = function (fileString, language) {
+  var tokens = (0, _test2.default)(fileString, language);
   var colorString = '';
   tokens.forEach(function (token) {
     var color = (0, _scopesToColor2.default)(token.scopes);
     colorString += _chalk2.default[color](token.value);
   });
+  console.log('log:', tokens);
 
   return colorString;
 };

@@ -8,8 +8,9 @@
     "test:coveralls": "istanbul cover _mocha --report lcovonly -- --compilers js:babel/register",
     "mocha": "mocha test --compilers js:babel/register",
     "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist --presets es2015",
-    "copy:others" : "rsync -avm --exclude='*.js' ./source/* ./dist",
-    "see-output" : "babel-node source/cli.js test.rb --presets es2015"
+    "copy:others": "rsync -avm --exclude='*.js' ./source/* ./dist",
+    "see-output": "babel-node source/cli.js exts.json --presets es2015",
+    "update-exts" : "babel-node update-extensions.js --presets es2015 > exts.json"
   },
   "repository": "sohamkamani/supercat",
   "author": {
@@ -38,6 +39,8 @@
     "first-mate-select-grammar": "^1.0.1",
     "highlights": "^1.3.1",
     "htmlout": "^0.2.0",
+    "language-classifier": "0.0.1",
+    "language-detect": "^1.1.0",
     "lodash": "^3.10.1",
     "parse-color": "^1.0.0"
   }

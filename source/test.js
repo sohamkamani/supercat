@@ -18,8 +18,8 @@ var encodeLang = function (grammarFile, code) {
   return tokens;
 };
 
-module.exports = function(fileString){
-  return encodeLang('./ruby.cson', fileString);
+module.exports = function(fileString, language){
+  return encodeLang('./grammars/' + language + '.json', fileString);
 };
 
 // console.log('log:', _.intersection(wordSet[0], wordSet[1]));

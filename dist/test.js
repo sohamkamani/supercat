@@ -19,8 +19,8 @@ var encodeLang = function encodeLang(grammarFile, code) {
   return tokens;
 };
 
-module.exports = function (fileString) {
-  return encodeLang('./ruby.cson', fileString);
+module.exports = function (fileString, language) {
+  return encodeLang('./' + language + '.json', fileString);
 };
 
 // console.log('log:', _.intersection(wordSet[0], wordSet[1]));

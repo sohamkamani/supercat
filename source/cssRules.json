@@ -3,7 +3,7 @@
   "selectors": ["function"]
 },{
   "color": "green",
-  "selectors": ["string"]
+  "selectors": ["string", "symbol"]
 },  {
   "color": "magenta",
   "selectors": ["numeric"]

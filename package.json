@@ -9,7 +9,7 @@
     "mocha": "mocha test --compilers js:babel/register",
     "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist --presets es2015",
     "copy:others" : "rsync -avm --exclude='*.js' ./source/* ./dist",
-    "see-output" : "babel-node source/cli.js ../../../src/pushapp-backend/config/deploy.rb --presets es2015"
+    "see-output" : "babel-node source/cli.js test.rb --presets es2015"
   },
   "repository": "sohamkamani/supercat",
   "author": {

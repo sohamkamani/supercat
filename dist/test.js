@@ -20,7 +20,7 @@ var encodeLang = function encodeLang(grammarFile, code) {
 };
 
 module.exports = function (fileString) {
-  return encodeLang('./js.cson', fileString);
+  return encodeLang('./ruby.cson', fileString);
 };
 
 // console.log('log:', _.intersection(wordSet[0], wordSet[1]));

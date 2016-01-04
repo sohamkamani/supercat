@@ -115,12 +115,17 @@ gulp.task('test:all', ['build:all'], _test);
 gulp.task('clean:all', _clean('build'));
 gulp.task('clean:dist', _clean('dist'));
 
-gulp.task('build', ['clean:dist'], function () {
+gulp.task('build', ['clean:dist', 'copy:dist'], function () {
   return gulp.src(files.source)
     .pipe(babel({
       presets: ['es2015']
     }))
     .pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy:dist', function(){
+  return gulp.src(dirs.source + '/!(*.js)')
+  .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function () {
@@ -131,6 +136,6 @@ gulp.task('test', ['clean:all'], function () {
   return gulp.start.apply(this, ['test:all', 'watch']);
 });
 
-gulp.task('default', ['clean:all'], function () {
+gulp.task('default', ['clean:all', 'copy:dev'], function () {
   return gulp.start.apply(this, ['test-with-reports', 'coveralls']);
 });

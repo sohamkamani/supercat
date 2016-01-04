@@ -12,7 +12,7 @@
     "email": "sohamkamani@gmail.com"
   },
   "bin" : {
-    "scat" : "node ./dist/cli.js"
+    "scat" : "./dist/cli.js"
   },
   "license": "ISC",
   "devDependencies": {

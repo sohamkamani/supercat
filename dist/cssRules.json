@@ -1,0 +1,7 @@
+[{
+  "color": "yellow",
+  "selectors": ["", "ed-text"]
+},  {
+  "color": "#fba0e3",
+  "selectors": ["", "ed-text", "gutter", "line-number", "folded", "line-number:after", "fold-marker:after"]
+}]

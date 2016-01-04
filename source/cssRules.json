@@ -5,14 +5,22 @@
   "color": "green",
   "selectors": ["string"]
 },  {
-  "color": "#fba0e3",
-  "selectors": ["keyword"]
+  "color": "magenta",
+  "selectors": ["numeric"]
 },
 {
-  "color" : "white",
-  "selectors" : ["variable"]
+  "color" : "blue",
+  "selectors" : ["storage"]
 },
 {
-  "color": "blue",
+  "color" : "cyan",
+  "selectors" : ["meta", "keyword"]
+},
+{
+  "color" : "gray",
+  "selectors" : ["comment", "comments"]
+},
+{
+  "color": "white",
   "selectors": ["source"]
 }]

@@ -3,7 +3,6 @@ import encodeLang from './test';
 import scopesToColor from './scopes-to-color';
 import ansiColor from './approximate-color';
 import chalk from 'chalk';
-import _ from 'lodash';
 
 
 module.exports = function (fileString) {
@@ -15,7 +14,7 @@ module.exports = function (fileString) {
       // delete token.scopes;
     return token;
   });
-  console.log(mappedTokens);
+  // console.log(mappedTokens);
   let colorString = '';
   mappedTokens.forEach(token => {
     colorString += chalk[token.ansiColor](token.value);

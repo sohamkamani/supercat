@@ -7,10 +7,11 @@
     "test": "istanbul cover _mocha -- --compilers js:babel/register",
     "test:coveralls": "istanbul cover _mocha --report lcovonly -- --compilers js:babel/register",
     "mocha": "mocha test --compilers js:babel/register",
-    "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist --presets es2015",
+    "relink": "npm unlink && npm link",
+    "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist --presets es2015 && npm run relink",
     "copy:others": "rsync -avm --exclude='*.js' ./source/* ./dist",
     "see-output": "babel-node source/cli.js exts.json --presets es2015",
-    "update-exts" : "babel-node update-extensions.js --presets es2015 > exts.json"
+    "update-exts": "babel-node update-extensions.js --presets es2015 > exts.json"
   },
   "repository": "sohamkamani/supercat",
   "author": {
@@ -25,8 +26,10 @@
     "babel-cli": "^6.3.17",
     "babel-preset-es2015": "^6.1.18",
     "chai": "^3.4.1",
+    "coffee": "^3.0.0",
     "colors": "^1.1.2",
     "cpy-cli": "^1.0.0",
+    "cson": "^3.0.2",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0",
     "mocha": "^2.3.4"

@@ -21,5 +21,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var filename = _path2.default.resolve(_path2.default.join('./', process.argv[2]));
 var fileString = _fs2.default.readFileSync(filename, 'utf-8');
-console.log('log:', (0, _getFileType2.default)(fileString));
-console.log((0, _assignWords2.default)(fileString, (0, _getFileType2.default)(fileString)));
+// console.log('log:',fileType(filename));
+console.log((0, _assignWords2.default)(fileString, (0, _getFileType2.default)(filename)));

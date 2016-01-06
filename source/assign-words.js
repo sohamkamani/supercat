@@ -10,7 +10,6 @@ module.exports = function (fileString, language) {
     var color = scopesToColor(token.scopes);
     colorString += chalk[color](token.value);
   });
-  console.log('log:',tokens);
 
   return colorString;
 };

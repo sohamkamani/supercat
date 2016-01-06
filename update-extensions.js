@@ -9,5 +9,4 @@ let langMaps = grammars.map(lang =>{
     name, exts
   };
 });
-
 console.log(JSON.stringify(langMaps));

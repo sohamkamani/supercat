@@ -1,13 +1,37 @@
 [{
+  "name": "c",
+  "exts": ["c", "h"]
+}, {
   "name": "clojure",
   "exts": ["boot", "clj", "cljc", "cljs", "cljx", "clojure", "edn"]
 }, {
+  "name": "css",
+  "exts": ["css", "css.erb"]
+}, {
+  "name": "html",
+  "exts": ["ejs", "htm", "html", "kit", "shtml", "tmpl", "tpl", "xhtml"]
+}, {
+  "name": "java",
+  "exts": ["java", "bsh"]
+}, {
   "name": "javascript",
-  "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib", "json"]
+  "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib"]
+}, {
+  "name": "less",
+  "exts": ["less", "less.erb"]
 }, {
   "name": "python",
   "exts": ["cpy", "gyp", "gypi", "kv", "py", "pyw", "rpy", "SConscript", "SConstruct", "Sconstruct", "sconstruct", "Snakefile", "tac", "wsgi"]
 }, {
   "name": "ruby",
   "exts": ["Appfile", "Appraisals", "Berksfile", "cap", "Capfile", "capfile", "cgi", "Deliverfile", "Fastfile", "fcgi", "Gemfile", "gemspec", "Guardfile", "irbrc", "opal", "Podfile", "podspec", "prawn", "pryrc", "Puppetfile", "rabl", "rake", "Rakefile", "Rantfile", "rb", "rbx", "rjs", "ru", "ruby", "Schemafile", "Snapfile", "thor", "Thorfile", "Vagrantfile"]
+}, {
+  "name": "sass",
+  "exts": ["sass", "sass.erb"]
+}, {
+  "name": "sql",
+  "exts": ["ddl", "dml", "pgsql", "psql", "sql"]
+}, {
+  "name": "yaml",
+  "exts": ["eslintrc", "eyaml", "eyml", "yaml", "yml", "sls", "sublime-syntax"]
 }]

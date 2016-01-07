@@ -1,4 +1,4 @@
-import cssRules from './cssRules.json';
+import cssRules from './css-rules.json';
 import _ from 'lodash';
 
 module.exports = function(scopes){

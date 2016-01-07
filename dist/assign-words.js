@@ -21,6 +21,7 @@ module.exports = function (fileString, language) {
     var color = (0, _scopesToColor2.default)(token.scopes);
     colorString += _chalk2.default[color](token.value);
   });
+  console.log('log:', tokens);
 
   return colorString;
 };

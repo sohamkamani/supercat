@@ -10,11 +10,11 @@
 },
 {
   "color" : "blue",
-  "selectors" : ["storage"]
+  "selectors" : ["storage", "tag", "entity"]
 },
 {
   "color" : "cyan",
-  "selectors" : ["meta", "keyword"]
+  "selectors" : ["meta", "keyword", "punctuation", "definition"]
 },
 {
   "color" : "gray",

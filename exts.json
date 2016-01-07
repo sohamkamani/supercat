@@ -15,7 +15,7 @@
   "exts": ["java", "bsh"]
 }, {
   "name": "javascript",
-  "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib"]
+  "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib", "json"]
 }, {
   "name": "less",
   "exts": ["less", "less.erb"]

@@ -1,5 +1,5 @@
 'use strict';
-import encodeLang from './test';
+import encodeLang from './encode-lang';
 import scopesToColor from './scopes-to-color';
 import chalk from 'chalk';
 

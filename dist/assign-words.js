@@ -22,7 +22,7 @@ module.exports = function (fileString, language) {
     var colouredToken = token.value.split('\n').map(function (val) {
       return _chalk2.default[color](val);
     }).join(_chalk2.default[color]('\n'));
-    console.log('log:', token.value, colouredToken);
+    // console.log('log:',token.value, colouredToken);
     colorString += colouredToken;
   });
 

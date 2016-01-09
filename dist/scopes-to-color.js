@@ -1,6 +1,6 @@
 'use strict';
 
-var _cssRules = require('./cssRules.json');
+var _cssRules = require('./css-rules.json');
 
 var _cssRules2 = _interopRequireDefault(_cssRules);
 

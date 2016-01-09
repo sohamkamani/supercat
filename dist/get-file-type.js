@@ -13,5 +13,5 @@ module.exports = function (filename) {
   var filtered = exts.filter(function (info) {
     return _lodash2.default.contains(info.exts, ext);
   });
-  return filtered[0].name;
+  return _lodash2.default.result(filtered, '[0].name', 'text');
 };

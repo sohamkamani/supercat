@@ -1,5 +1,6 @@
 'use strict';
 // var _ = require('lodash');
+import path from 'path';
 var GrammarRegistry, grammar, line, ref, registry, tags;
 
 GrammarRegistry = require('first-mate').GrammarRegistry;
@@ -19,5 +20,13 @@ var encodeLang = function (grammarFile, code) {
 };
 
 module.exports = function(fileString, language){
-  return encodeLang('./grammars/' + language + '.json', fileString);
+  if(language === 'text'){
+    return fileString.split('\n').map(line => {
+      return {
+        scopes : ['source'],
+        value : line + '\n'
+      };
+    });
+  }
+  return encodeLang(path.resolve(__dirname + '/../grammars/' + language + '.json'), fileString);
 };

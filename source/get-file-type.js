@@ -8,5 +8,5 @@ module.exports = filename => {
   let filtered = exts.filter(info =>{
     return _.contains(info.exts, ext);
   });
-  return filtered[0].name;
+  return _.result(filtered, '[0].name', 'text');
 };

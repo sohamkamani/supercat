@@ -2,11 +2,11 @@
   "name": "c",
   "exts": ["c", "h"]
 }, {
-  "name": "clojure",
-  "exts": ["boot", "clj", "cljc", "cljs", "cljx", "clojure", "edn"]
-}, {
   "name": "css",
   "exts": ["css", "css.erb"]
+}, {
+  "name": "gfm",
+  "exts": ["markdown", "md", "mdown", "mkd", "mkdown", "rmd", "ron"]
 }, {
   "name": "html",
   "exts": ["ejs", "htm", "html", "kit", "shtml", "tmpl", "tpl", "xhtml"]
@@ -14,7 +14,7 @@
   "name": "java",
   "exts": ["java", "bsh"]
 }, {
-  "name": "javascript",
+  "name": "js",
   "exts": ["js", "_js", "es", "es6", "htc", "jscad", "jsm", "json5", "pac", "pjs", "xsjs", "xsjslib", "json"]
 }, {
   "name": "less",
@@ -29,8 +29,14 @@
   "name": "sass",
   "exts": ["sass", "sass.erb"]
 }, {
+  "name": "sh",
+  "exts": ["sh", "bash", "ksh", "zsh", "zshenv", "zlogin", "zlogout", "zprofile", "zshrc", "bashrc", "bash_profile", "bash_login", "profile", "bash_logout", ".textmate_init", "npmrc", "PKGBUILD", "cygport"]
+}, {
   "name": "sql",
   "exts": ["ddl", "dml", "pgsql", "psql", "sql"]
+}, {
+  "name": "text",
+  "exts": ["txt"]
 }, {
   "name": "yaml",
   "exts": ["eslintrc", "eyaml", "eyml", "yaml", "yml", "sls", "sublime-syntax"]

@@ -14,7 +14,7 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = function (fileString, language) {
+module.exports = function (fileString, language, options) {
   var tokens = (0, _encodeLang2.default)(fileString, language);
   var colorString = '';
   tokens.forEach(function (token) {
@@ -22,15 +22,13 @@ module.exports = function (fileString, language) {
     var colouredToken = token.value.split('\n').map(function (val) {
       return _chalk2.default[color](val);
     }).join(_chalk2.default[color]('\n'));
-    // console.log('log:',token.value, colouredToken);
     colorString += colouredToken;
   });
 
   //Adding line numbers
-  // console.log('log:',tokens);
-  var colorStringLineNos = colorString.split('\n').map(function (eachLine, n) {
+  colorString = options.linenos ? colorString.split('\n').map(function (eachLine, n) {
     return _chalk2.default.bgWhite.black(' ' + (n + 1) + ' \t') + eachLine;
-  }).join('\n');
+  }).join('\n') : colorString;
 
-  return colorStringLineNos;
+  return colorString;
 };

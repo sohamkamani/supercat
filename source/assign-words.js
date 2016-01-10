@@ -3,7 +3,7 @@ import encodeLang from './encode-lang';
 import scopesToColor from './scopes-to-color';
 import chalk from 'chalk';
 
-module.exports = function (fileString, language, options) {
+module.exports = function (fileString, language = 'text', options = {}) {
   let tokens = encodeLang(fileString, language);
   let colorString = '';
   tokens.forEach(token => {

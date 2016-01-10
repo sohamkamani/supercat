@@ -1,7 +1,7 @@
 {
   "name": "supercat",
-  "version": "0.1.0",
-  "description": "My node module",
+  "version": "0.9.0",
+  "description": "An enhanced `cat` command for the terminal.",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run mocha",

@@ -4,10 +4,11 @@
   "description": "My node module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- --compilers js:babel-core/register",
+    "test": "npm run mocha",
     "test:cover": "./node_modules/babel-cli/bin/babel-node.js ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha",
-    "test:coveralls": "istanbul cover _mocha --report lcovonly -- --compilers js:babel-core/register",
+    "test:coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "mocha": "mocha test --compilers js:babel-core/register",
+    "ci" : "npm run test:cover && npm run test:coveralls",
     "relink": "npm unlink && npm link",
     "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist && npm run relink",
     "copy:others": "rsync -avm --exclude='*.js' ./source/* ./dist",

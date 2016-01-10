@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- --compilers js:babel-core/register",
-    "test:cover" : "./node_modules/babel-cli/bin/babel-node.js ./node_modules/istanbul/lib/cli cover node_modules/mocha/bin/_mocha -- --bail --recursive 'test/**/*.js'",
+    "test:cover": "./node_modules/babel-cli/bin/babel-node.js ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha",
     "test:coveralls": "istanbul cover _mocha --report lcovonly -- --compilers js:babel-core/register",
     "mocha": "mocha test --compilers js:babel-core/register",
     "relink": "npm unlink && npm link",
@@ -32,7 +32,7 @@
     "colors": "^1.1.2",
     "cpy-cli": "^1.0.0",
     "cson": "^3.0.2",
-    "istanbul": "^0.4.1",
+    "isparta": "^4.0.0",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0",
     "mocha": "^2.3.4"

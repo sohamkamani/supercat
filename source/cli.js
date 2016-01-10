@@ -9,7 +9,6 @@ import getFileType from './get-file-type';
 import packageJson from '../package.json';
 import chalk from 'chalk';
 
-
 program
   .version(packageJson.version)
   .usage('[options] <filename>')

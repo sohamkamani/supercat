@@ -1,3 +1,4 @@
+'use strict';
 import cssRules from './css-rules.json';
 import _ from 'lodash';
 

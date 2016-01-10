@@ -35,7 +35,7 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_commander2.default.version(_package2.default.version).option('-l, --linenos', 'Show line numbers').option('-p, --plain', 'Remove code formatting').option('-i, --info', 'Show file info').parse(process.argv);
+_commander2.default.version(_package2.default.version).usage('[options] <filename>').option('-l, --linenos', 'Show line numbers').option('-p, --plain', 'Remove code formatting').option('-i, --info', 'Show file info').parse(process.argv);
 
 var filename = _path2.default.resolve(_commander2.default.args[0]);
 var fileString = _fs2.default.readFileSync(filename, 'utf-8');

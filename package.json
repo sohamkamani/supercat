@@ -13,7 +13,7 @@
     "build": "rm -rf dist/* && npm run copy:others && babel source --out-dir dist && npm run relink",
     "copy:others": "rsync -avm --exclude='*.js' ./source/* ./dist",
     "see-output": "babel-node source/cli.js exts.json",
-    "update-exts": "babel-node update-extensions.js > exts.json"
+    "update-exts": "rm exts.json && babel-node update-extensions.js > exts.json"
   },
   "repository": "sohamkamani/supercat",
   "author": {

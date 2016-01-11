@@ -45,6 +45,8 @@ Options:
 
 ... More to come :)
 
+## [Contributing](https://github.com/sohamkamani/supercat/blob/master/CONTRIBUTING.md)
+
 ## License
 
 MIT © [sohamkamani](https://github.com/sohamkamani)

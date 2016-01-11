@@ -2,6 +2,9 @@
 
 > An enhanced `cat` command for the terminal.
 
+An improved `cat` command for the terminal, with code syntax highlighting, line numbers, and more.
+
+![supercat image](https://raw.githubusercontent.com/sohamkamani/supercat/master/images/supercat-img.png)
 
 ## Install
 
@@ -22,6 +25,25 @@ Options:
   -p, --plain    Remove code formatting
   -i, --info     Show file info
 ```
+
+## Supported languages for syntax highlighting
+
+- C
+- CSS
+- Markdown
+- HTML
+- Java
+- Javascript
+- Less
+- Python
+- Ruby
+- Sass
+- Shell Script
+- SQL
+- Text
+- YAML
+
+... More to come :)
 
 ## License
 

@@ -35,6 +35,8 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+_chalk2.default.enabled = true;
+
 _commander2.default.version(_package2.default.version).usage('[options] <filename>').option('-l, --linenos', 'Show line numbers').option('-p, --plain', 'Remove code formatting').option('-i, --info', 'Show file info').parse(process.argv);
 
 var filename = _path2.default.resolve(_commander2.default.args[0]);

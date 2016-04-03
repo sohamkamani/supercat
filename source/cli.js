@@ -8,6 +8,7 @@ import assignWords from './assign-words';
 import getFileType from './get-file-type';
 import packageJson from '../package.json';
 import chalk from 'chalk';
+chalk.enabled = true;
 
 program
   .version(packageJson.version)

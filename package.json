@@ -1,6 +1,6 @@
 {
   "name": "supercat",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An enhanced `cat` command for the terminal.",
   "main": "dist/index.js",
   "scripts": {

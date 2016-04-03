@@ -14,6 +14,8 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+_chalk2.default.enabled = true;
+
 module.exports = function (fileString) {
   var language = arguments.length <= 1 || arguments[1] === undefined ? 'text' : arguments[1];
   var options = arguments.length <= 2 || arguments[2] === undefined ? {} : arguments[2];
